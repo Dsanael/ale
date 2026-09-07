@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto introductorio para aprender la escritura y las etiquetas principales de html">
+    <meta name="author" content="AFFL">
+
+    <!-- Texto que aparece en la pestaña del navegador -->
+    <title>Mi primer proyecto HTML</title>
+</head>
+<body>
+    <main>
+        <!--Encabezado de la pagina-->
+        <header>
+            <h1>Mi primer proyecto HTML</h1>
+            <p>Un sitio para practicar la estructura y las etiquetas principales de html 5.</p>
+        
+        <!--Menú con enlaces hacia secciones de esta misma página -->
+        <nav aria aria-label="Navegacion principal">
+            <ul>
+                <li><a href="#Acerca">Acerca de mi</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+                <li><a href="#Horario">Horario</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenido principal e inicio de la página -->
+    <main>
+        <section id="Acerca">
+            <figure>
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwqluU7LmgCWvAbSjXeEflykT-kc51D3vvziEkhvT_nScC33Y556UxjZbeiK2QaCN1-B-tu9pge9hPJCdKpM98N46fjHwNk0HNJM8CMfUqEOXINaXuuKhk3dq59a_rxK6ZgPhM-XdBjKwl=s680-w680-h510-rw" alt="">
+                <FIGCAption>Universidad cucea</FIGCAption>
+            </figure>
+            <p>Mi nombre es <strong>alejandro</strong> y actualmente estoy cursando la materia de programacion web con <abbr title="HyperText Markup Language">HTML</abbr> </p>
+
+            <P>Me interesa especialmente la <em>creacion de contenido y experiencias digitales</em> y quiero aprender a desarrollar sitios accesibles y bien estructurados</P>
+        </section>
+        <hr>
+        <section id="Habilidades">
+            <h2>habilidades e intereses</h2>
+
+            <h3>Mis intereses</h3>
+            <ul>
+                <li>Programación</li>
+                <li>Videojuegos</li>
+                <li>Gimnasio</li>
+                <li>UX/UI</li>
+            </ul>
+
+            <h3>Mis metas de aprendizaje</h3>
+            <ol>
+                <li>Comprender la estructura de HTML</li>
+                <li>Aprender a modificar la apariencia con css</li>
+                <li>Aprender a programar en PHP</li>
+                <li>Conectar mi pagina con una base de datos(MySQL)</li>
+            </ol>
+        </section>
+        <hr>
+        <section id="Proyectos">
+            <h2>Mis proyectos</h2>
+            <article>
+                <h3>Página personal</h3>
+                <p>En este proyecto presentare informacion sobre mis intereses, habilidades y objetivos profesionales</p>
+                <a href="https://www.cucea.udg.mx/" target="_blank">Visitar cucea</a>
+            </article>
+
+            <article>
+                <h3>Sitio de mi tema favorito</h3>
+                <p>Creare un sitio informativo sobre peliculas, videojuegos, artistas, deportes o temas de mi elección.</p>
+            </article>
+            <hr>
+            <section id="Horario">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+            </section>
+            <hr>
+            <section id="Contacto">
+                <form action="">
+                    <label for="">Nombre</label>
+                    <input type="text" name="Nombre" id="nombre">   
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <address>
+            Elaborado por AFFL <br>
+            correo: <a href="mailto:affl@gmail.com">affl@gmail.com</a>
+        </address>
+        <p><a href="#inicio">HOME</a></p>
+    </footer>
+</body>
+</html>
