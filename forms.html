@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion Web / Forms</title>
+</head>
+<body>
+    <h1>Ejercicio con formularios en HTML 5</h1>
+
+    <form action="" method="post">
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" required minlength="3" placeholder="Escribe tu nombre">
+        <br>
+        <label for="ap_paterno">Apellido paterno</label>
+        <input type="text" name="ap_paterno" id="ap_paterno" required>
+        <br>
+        <label for="ap_materno">Apellido materno</label>
+        <input type="text" name="ap_materno" id="ap_materno">
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="number" name="edad" id="edad" style="width: 30px;">
+        <br>
+        <label for="correo">Correo Electronico</label>
+        <input type="email" name="correo" id="correo">
+        <br>
+        <label for="fecha">Fecha</label>
+        <input type="datetime-local" name="fecha" id="fecha">
+        <br>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password">
+        <br>
+
+        <label>Hobbies</label><br>
+        <input type="checkbox" name="hobbie" id="hobbie"> programar <br>
+        <input type="checkbox" name="hobbie" id="hobbie"> leer <br>
+        <input type="checkbox" name="hobbie" id="hobbie" value="Correo" >  correr <br>
+        <input type="checkbox" name="hobbie" id="hobbie"> Jugar videojuegos <br><br>
+
+        <input type="range" name="" id="">
+        <br><br>
+
+        <label for="estatus">Estatus</label>
+        <select name="estatus" id="estatus">
+            <option value="jalsco">Jalisco</option>
+            <option value="Zacatecas">Zacatecas</option>
+            <option value="33">art. 33</option>
+            <option value="34">art. 34</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Registrar">
+    </form>
+
+
+
+</body>
+</html>
