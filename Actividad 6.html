@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Evento Universitario</title>
+</head>
+<body>
+    <h1>Registro de participantes - Evento Universitario</h1>
+    <form action="" method="post">
+
+        <label for= "nombre">Nombre completo: </label> <br>
+        <input type= "text" name="nombre" id="nombre" required minlength="3" placeholder="Escribe tu nombre completo">
+        <br><br>
+
+        <label for= "correo">Correo electronico: </label> <br>
+        <input type= "email" name="correo" id="correo" required placeholder="ejemplo@alumnos.udg.mx">
+        <br><br>
+
+        <label for= "edad">Edad: </label> <br>
+        <input type= "number" name="edad" id="edad" min="17" max="100" required placeholder="Ej. 20">
+        <br><br>
+
+        <label for= "FechaNacimiento">Fecha de nacimiento: </label> <br>
+        <input type= "date" name="FechaNacimiento" id="FechaNacimiento" required>
+        <br><br>
+
+        <!-- Lista desplegable -->
+        <label for="carrera">Carrera: </label><br>
+        <select name="carrera" id="carrera" required>
+            <option value=""disabled selected >-- Selecciona una carrera --</option>>
+            <option value="Economia">Economia</option>
+            <option value="Tecnologias de la información">Tecnologias de la información</option>
+            <option value="Recursos Humanos">Recursos Humanos</option>
+            <option value="Contaduria">Contaduria</option>
+            <option value="Administración">Administración</option>
+        </select>
+        <br><br>
+
+        <label>Turno de asistencia</label><br>
+        <input type="radio" name="turno" id="TurnoMatutino" value="Matutino" required>
+        <label for="TurnoMatutino">Matutino</label>
+        <br>
+        <input type="radio" name="turno" id="TurnoVespertino" value="Vespertino" required>
+        <label for="TurnoVespertino">Vespertino</label>
+        <br><br>
+
+        <input type="checkbox" name="terminos" id="terminos" required>
+        <label for="terminos">Acepto los términos y condiciones del evento</label>
+        <br><br>
+
+        <input type="submit" value="Enviar registro">
+        <input type="reset" value="Limpiar formulario">
+
+    </form>
+
+
+</body>
+</html>
