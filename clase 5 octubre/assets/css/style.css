@@ -1,0 +1,54 @@
+ body{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        a{
+            color: fuchsia;
+            text-decoration: none;
+        }
+
+        a:hover{
+            background-color: fuchsia;
+            color: aliceblue;
+        }
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            color: aliceblue;
+        }
+        p{
+            color: rgb(70, 149, 240);
+        }
+        .importante{
+            background-color: coral;
+            color: white;
+            padding:18px;
+            /*border: 10px dotted greenyellow;*/
+            border-radius: 15px;
+        }
+        
+        #circle{
+            border-radius: 50%;
+            color: rgb(0, 0, 0);
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        .heredar p{
+            color: violet;
+        }
+
+        input[type="text"]{
+            background-color: red;
+            border: 0;
+            color: white;
+        }
+
+
