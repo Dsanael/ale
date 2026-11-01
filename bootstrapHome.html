@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="inicio" class="bg-dark text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-7 fw-bold">Mi primer proyecto HTML con Bootstrap</h1>
+        <p class="lead">Home actualizado con bootstrap</p>
+      </div>
+    </header>
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#inicio">Portafolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Acerca">Acerca de mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Habilidades">Habilidades</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#Proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Horario">Horario</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="container my-5">
+      
+      <!-- Sección Acerca de mí -->
+      <section id="Acerca" class="mb-5">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <figure class="figure">
+              <img src="https://www.cucea.udg.mx/sites/default/files/inline-images/01jrkfhx99qeg541bnekmjjatj.jpg" class="figure-img img-fluid rounded shadow" alt="CUCEA">
+              <figcaption class="figure-caption">Universidad CUCEA</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-8">
+            <h2>Acerca de mí</h2>
+            <p>Mi nombre es Alejandro y actualmente estoy cursando la materia de programación web con <abbr title="HyperText Markup Language">HTML</abbr></p>
+            <p>Me interesa especialmente la creación de contenido y experiencias digitales y quiero aprender a desarrollar sitios accesibles y bien estructurados.</p>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+      <section id="Habilidades" class="mb-5">
+        <h2 class="mb-3">Habilidades e intereses</h2>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="card p-3 shadow-sm h-100">
+              <h3>Mis intereses</h3>
+              <ul>
+                <li>Programación</li>
+                <li>Videojuegos</li>
+                <li>Gimnasio</li>
+                <li>UX/UI</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="card p-3 shadow-sm h-100">
+              <h3>Mis metas de aprendizaje</h3>
+              <ol>
+                <li>Comprender la estructura de HTML</li>
+                <li>Aprender a modificar la apariencia con CSS / Frameworks</li>
+                <li>Aprender a programar en PHP</li>
+                <li>Conectar mi página con una base de datos (MySQL)</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="Proyectos" class="mb-5">
+        <h2 class="mb-3">Mis proyectos</h2>
+        <div class="row g-3">
+
+            <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title h5">Actividad 5: Tablas semánticas</h3>
+                <p class="card-text">Tabla con etiquetas semánticas sobre estudiantes universitarios.</p>
+                <a href="Actividad5.html" class="btn btn-primary btn-sm">Ver Actividad 5</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title h5">Actividad 6: Formularios</h3>
+                <p class="card-text">Práctica de formularios web interactivos.</p>
+                <a href="Actividad6.html" class="btn btn-primary btn-sm">Ver Actividad 6</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title h5">Actividad 10: Noticia</h3>
+                <p class="card-text">Estructuración avanzada de una noticia en la web.</p>
+                <a href="actividad10.html" class="btn btn-primary btn-sm">Ver Actividad 10</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <section id="Horario" class="mb-5">
+        <h2>Horario</h2>
+        <p class="text-muted">Espacio reservado para la administración de mis horarios y actividades académicas en el CUCEA.</p>
+      </section>
+      <hr>
+
+      <section id="Contacto" class="mb-5">
+        <h2>Contacto</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" name="Nombre" id="nombre" placeholder="Escribe tu nombre">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-success">Enviar</button>
+          </div>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <address class="mb-2">
+          Elaborado por Alejandro Sangines <br>
+          Correo: <a href="alejandro.cruz2009@alumnos.udg.mx" class="text-info">alejandro.cruz2009@alumnos.udg.mx</a>
+        </address>
+        <p class="mb-0"><a href="#inicio" class="btn btn-outline-light btn-sm">HOME</a></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
